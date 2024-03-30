@@ -1,0 +1,76 @@
+/* Resetting some default browser styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+header, main, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 45px; /* Adjust icon size as needed */
+    height: 45px;
+}
+
+
+.links {
+    text-align: center;
+}
+
+.link-item {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: rgba(52, 152, 219, 0); /* Semi-transparent background color */
+    color: #000;
+    border-radius: 7.5px;
+    width: 1000px;
+    font-size: 16px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pronouns {
+    font-size: smaller;
+}
+
+button{
+    text-decoration: none;
+}
