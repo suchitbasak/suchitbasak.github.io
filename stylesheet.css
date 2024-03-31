@@ -52,7 +52,7 @@ h1{
 
 .link-item {
     display: block;
-    margin: 15px auto;
+    margin: 20px auto;
     padding: 10px 20px;
     background-color: rgba(52, 152, 219, 0); /* Semi-transparent background color */
     color: #000;
@@ -69,8 +69,4 @@ footer {
 
 .pronouns {
     font-size: smaller;
-}
-
-button{
-    text-decoration: none;
 }
