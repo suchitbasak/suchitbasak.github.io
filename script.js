@@ -14,6 +14,12 @@ function adjustButtonWidth() {
     });
 }
 
+function redirectToPage(url) {
+    // Open the specified URL in a new tab
+    window.open(url, '_blank');
+}
+
+
 // Call the function initially and on window resize
 adjustButtonWidth();
 window.addEventListener('resize', adjustButtonWidth);
